@@ -145,7 +145,9 @@ class PageThreeState extends State<PageThree> {
                                   const EdgeInsets.only(top: 50, bottom: 15),
                               child: Image.asset(
                                 'image/size.png',
-                                package: 'presurvelist',
+                                errorBuilder: (context, error, stackTrace) {
+                                  return const Text('Failed to load image');
+                                },
                               ),
                             ),
                             Positioned(
