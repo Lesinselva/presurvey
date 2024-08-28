@@ -143,7 +143,10 @@ class PageThreeState extends State<PageThree> {
                               width: 250,
                               padding:
                                   const EdgeInsets.only(top: 50, bottom: 15),
-                              child: Image.asset('image/size.png'),
+                              child: Image.asset(
+                                'image/size.png',
+                                package: 'presurvelist',
+                              ),
                             ),
                             Positioned(
                               top: 150,
