@@ -15,7 +15,7 @@ dependencies:
   intl: ^0.19.0
   country_picker: ^2.0.26
   image_picker: ^1.1.2
-  stepper:
+  stepper: 
    git:
      url: https://github.com/Lesinselva/cosstepper.git
      ref: main

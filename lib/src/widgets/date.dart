@@ -1,4 +1,4 @@
-import 'package:exex/widgets/icon/gradient_icon.dart';
+import 'package:grandienticon/grandienticon.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
